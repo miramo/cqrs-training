@@ -1,0 +1,26 @@
+{
+  "name": "cqrs-training",
+  "type": "module",
+  "private": true,
+  "volta": {
+    "node": "18.17.1",
+    "yarn": "1.22.19"
+  },
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.49.0-beta.4",
+    "@slidev/theme-apple-basic": "^0.25.1",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.4.22"
+  },
+  "devDependencies": {
+    "@iconify-json/akar-icons": "^1.1.19",
+    "@iconify-json/ant-design": "^1.1.10",
+    "playwright-chromium": "^1.38.1"
+  }
+}
